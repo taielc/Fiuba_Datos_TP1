@@ -1,2 +1,4 @@
+.gitignore
 .ipynb_checkpoints/*
 train.csv
+New.ipynb
