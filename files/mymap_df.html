@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20fa30117cea4c4793b72829447e61bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_20fa30117cea4c4793b72829447e61bf" ></div>
+        
+</body>
+<script>    
+    
+            var map_20fa30117cea4c4793b72829447e61bf = L.map(
+                "map_20fa30117cea4c4793b72829447e61bf",
+                {
+                    center: [19.35, -99.2],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac2c6098a1804ca0a63fbf7e197e542a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+            var circle_4b607209e97a420794ed252e16f7169a = L.circle(
+                [19.349565, -99.243546],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2653.7032400000003, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_4101bda1afaa4c82b14ab38a61d4bfc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_799c762c4c144dc2af00353a1be7f750 = $(`<div id="html_799c762c4c144dc2af00353a1be7f750" style="width: 100.0%; height: 100.0%;">Alvaro Obregón</div>`)[0];
+            popup_4101bda1afaa4c82b14ab38a61d4bfc0.setContent(html_799c762c4c144dc2af00353a1be7f750);
+        
+
+        circle_4b607209e97a420794ed252e16f7169a.bindPopup(popup_4101bda1afaa4c82b14ab38a61d4bfc0)
+        ;
+
+        
+    
+    
+            var circle_cde3a992122145d1a76b49d7424b25d5 = L.circle(
+                [19.485371, -99.18311899999999],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1682.32787, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_37260d5d95944ee485ffc13290633ad2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e56aecb2211040df933a4410227a2710 = $(`<div id="html_e56aecb2211040df933a4410227a2710" style="width: 100.0%; height: 100.0%;">Azcapotzalco</div>`)[0];
+            popup_37260d5d95944ee485ffc13290633ad2.setContent(html_e56aecb2211040df933a4410227a2710);
+        
+
+        circle_cde3a992122145d1a76b49d7424b25d5.bindPopup(popup_37260d5d95944ee485ffc13290633ad2)
+        ;
+
+        
+    
+    
+            var circle_5bbc3727c691411ca4b515364bc5f452 = L.circle(
+                [19.380225, -99.16265899999999],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2789.27658, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_050c2bcbf6b74fbf8ad255580776ff80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbac072313d844d99aef92a0017c81e0 = $(`<div id="html_bbac072313d844d99aef92a0017c81e0" style="width: 100.0%; height: 100.0%;">Benito Juárez</div>`)[0];
+            popup_050c2bcbf6b74fbf8ad255580776ff80.setContent(html_bbac072313d844d99aef92a0017c81e0);
+        
+
+        circle_5bbc3727c691411ca4b515364bc5f452.bindPopup(popup_050c2bcbf6b74fbf8ad255580776ff80)
+        ;
+
+        
+    
+    
+            var circle_8e5417c3a67a401295c173a98e628806 = L.circle(
+                [19.326411, -99.1489],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2206.226665, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_a74e304fa31a44278f20a1b786cc4a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_511cb5387ee44f29b501ac276a3bc336 = $(`<div id="html_511cb5387ee44f29b501ac276a3bc336" style="width: 100.0%; height: 100.0%;">Coyoacán</div>`)[0];
+            popup_a74e304fa31a44278f20a1b786cc4a15.setContent(html_511cb5387ee44f29b501ac276a3bc336);
+        
+
+        circle_8e5417c3a67a401295c173a98e628806.bindPopup(popup_a74e304fa31a44278f20a1b786cc4a15)
+        ;
+
+        
+    
+    
+            var circle_2f5f5af575ba4c2390dd5900388e45ca = L.circle(
+                [19.337406, -99.30616500000001],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2690.50683, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_a18fa65d891e4e4499737d2b511cc7d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61d4185d75b04dafb8231e49b9897836 = $(`<div id="html_61d4185d75b04dafb8231e49b9897836" style="width: 100.0%; height: 100.0%;">Cuajimalpa de Morelos</div>`)[0];
+            popup_a18fa65d891e4e4499737d2b511cc7d0.setContent(html_61d4185d75b04dafb8231e49b9897836);
+        
+
+        circle_2f5f5af575ba4c2390dd5900388e45ca.bindPopup(popup_a18fa65d891e4e4499737d2b511cc7d0)
+        ;
+
+        
+    
+    
+            var circle_a61d6fb6dba9448b908fd4c474a6b5a9 = L.circle(
+                [19.430726, -99.148579],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2864.0372, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_eef03ad03b614864b647db0902e44834 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84269564226144038073e9334454ff74 = $(`<div id="html_84269564226144038073e9334454ff74" style="width: 100.0%; height: 100.0%;">Cuauhtémoc</div>`)[0];
+            popup_eef03ad03b614864b647db0902e44834.setContent(html_84269564226144038073e9334454ff74);
+        
+
+        circle_a61d6fb6dba9448b908fd4c474a6b5a9.bindPopup(popup_eef03ad03b614864b647db0902e44834)
+        ;
+
+        
+    
+    
+            var circle_898ad31389b5468db1d3bfc13e59ccac = L.circle(
+                [19.494131, -99.117278],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1681.1608899999999, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_239fca8055c1491e9461bd4e3a12a3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d62993e0186547059e46d40e4fa3a4b6 = $(`<div id="html_d62993e0186547059e46d40e4fa3a4b6" style="width: 100.0%; height: 100.0%;">Gustavo A. Madero</div>`)[0];
+            popup_239fca8055c1491e9461bd4e3a12a3d6.setContent(html_d62993e0186547059e46d40e4fa3a4b6);
+        
+
+        circle_898ad31389b5468db1d3bfc13e59ccac.bindPopup(popup_239fca8055c1491e9461bd4e3a12a3d6)
+        ;
+
+        
+    
+    
+            var circle_6872dbffeb6647499ec2883af6a23002 = L.circle(
+                [19.391351, -99.10044],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1639.7918700000002, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_6885c62756f04d96a651e3611180988e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a98133bac175446fb15cebacb73579af = $(`<div id="html_a98133bac175446fb15cebacb73579af" style="width: 100.0%; height: 100.0%;">Iztacalco</div>`)[0];
+            popup_6885c62756f04d96a651e3611180988e.setContent(html_a98133bac175446fb15cebacb73579af);
+        
+
+        circle_6872dbffeb6647499ec2883af6a23002.bindPopup(popup_6885c62756f04d96a651e3611180988e)
+        ;
+
+        
+    
+    
+            var circle_135da89b706a4b9b8f00878cfd6de1fd = L.circle(
+                [19.347089, -99.044993],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1414.55383, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_2faaede326434d3082acd880f4ae9038 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f923a696ba2c45b78b13bee76dbb6ed0 = $(`<div id="html_f923a696ba2c45b78b13bee76dbb6ed0" style="width: 100.0%; height: 100.0%;">Iztapalapa</div>`)[0];
+            popup_2faaede326434d3082acd880f4ae9038.setContent(html_f923a696ba2c45b78b13bee76dbb6ed0);
+        
+
+        circle_135da89b706a4b9b8f00878cfd6de1fd.bindPopup(popup_2faaede326434d3082acd880f4ae9038)
+        ;
+
+        
+    
+    
+            var circle_919a240e5a494837818cda0c4e0e3cde = L.circle(
+                [19.279579000000002, -99.264847],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2273.128275, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_783fa65aa8654f478e0ade06a7382242 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d272dfb00b7c4a4c93f96c4e423e9845 = $(`<div id="html_d272dfb00b7c4a4c93f96c4e423e9845" style="width: 100.0%; height: 100.0%;">La Magdalena Contreras</div>`)[0];
+            popup_783fa65aa8654f478e0ade06a7382242.setContent(html_d272dfb00b7c4a4c93f96c4e423e9845);
+        
+
+        circle_919a240e5a494837818cda0c4e0e3cde.bindPopup(popup_783fa65aa8654f478e0ade06a7382242)
+        ;
+
+        
+    
+    
+            var circle_01049523d31b44b09c55e4cdd1f010f7 = L.circle(
+                [19.429402, -99.20156300000001],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3144.3103199999996, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_eba8916cfe7245be800c19ce8b4f55bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1abb6f555e19466ea19ce47e2fe8af27 = $(`<div id="html_1abb6f555e19466ea19ce47e2fe8af27" style="width: 100.0%; height: 100.0%;">Miguel Hidalgo</div>`)[0];
+            popup_eba8916cfe7245be800c19ce8b4f55bc.setContent(html_1abb6f555e19466ea19ce47e2fe8af27);
+        
+
+        circle_01049523d31b44b09c55e4cdd1f010f7.bindPopup(popup_eba8916cfe7245be800c19ce8b4f55bc)
+        ;
+
+        
+    
+    
+            var circle_4cfc58a194724f8d856b65ad56ccdf65 = L.circle(
+                [19.190617, -99.025469],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 861.99702, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_93c2e371dd304cedbae2e2ee084c8e9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7118fe3e092f498db6ecf74f0e05cc09 = $(`<div id="html_7118fe3e092f498db6ecf74f0e05cc09" style="width: 100.0%; height: 100.0%;">Milpa Alta</div>`)[0];
+            popup_93c2e371dd304cedbae2e2ee084c8e9a.setContent(html_7118fe3e092f498db6ecf74f0e05cc09);
+        
+
+        circle_4cfc58a194724f8d856b65ad56ccdf65.bindPopup(popup_93c2e371dd304cedbae2e2ee084c8e9a)
+        ;
+
+        
+    
+    
+            var circle_2507919f364e4f02b7b96467d7331b9f = L.circle(
+                [19.208237, -99.201725],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2020.5509200000001, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_6c223e4f66c644b5b0dc1e82199c31e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c3b60aafb8240a6944695b20f280ef4 = $(`<div id="html_5c3b60aafb8240a6944695b20f280ef4" style="width: 100.0%; height: 100.0%;">Tlalpan</div>`)[0];
+            popup_6c223e4f66c644b5b0dc1e82199c31e0.setContent(html_5c3b60aafb8240a6944695b20f280ef4);
+        
+
+        circle_2507919f364e4f02b7b96467d7331b9f.bindPopup(popup_6c223e4f66c644b5b0dc1e82199c31e0)
+        ;
+
+        
+    
+    
+            var circle_bc7bc3cf28134014ae9138c29ccae223 = L.circle(
+                [19.283669, -99.005658],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1106.5975349999999, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_5c91080bd1b2401d9ec4f488c807f14d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a92725ac10f4578b1eedee7ee5127e7 = $(`<div id="html_2a92725ac10f4578b1eedee7ee5127e7" style="width: 100.0%; height: 100.0%;">Tláhuac</div>`)[0];
+            popup_5c91080bd1b2401d9ec4f488c807f14d.setContent(html_2a92725ac10f4578b1eedee7ee5127e7);
+        
+
+        circle_bc7bc3cf28134014ae9138c29ccae223.bindPopup(popup_5c91080bd1b2401d9ec4f488c807f14d)
+        ;
+
+        
+    
+    
+            var circle_0236cceff6d64f8782a005ed94feee12 = L.circle(
+                [19.430451, -99.093758],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1592.9993749999999, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_6c62a027121345d69f4e5d7ce3a5a1f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_288b6859e64545119b8eeecb1124ab79 = $(`<div id="html_288b6859e64545119b8eeecb1124ab79" style="width: 100.0%; height: 100.0%;">Venustiano Carranza</div>`)[0];
+            popup_6c62a027121345d69f4e5d7ce3a5a1f6.setContent(html_288b6859e64545119b8eeecb1124ab79);
+        
+
+        circle_0236cceff6d64f8782a005ed94feee12.bindPopup(popup_6c62a027121345d69f4e5d7ce3a5a1f6)
+        ;
+
+        
+    
+    
+            var circle_bf44d05b117645e795266d0c68397839 = L.circle(
+                [19.245708999999998, -99.092569],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1650.7000549999998, "stroke": true, "weight": 3}
+            ).addTo(map_20fa30117cea4c4793b72829447e61bf);
+        
+    
+        var popup_18803db328194d498b321676080a2171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4857c3fe843419394fb04f1da63fd6e = $(`<div id="html_d4857c3fe843419394fb04f1da63fd6e" style="width: 100.0%; height: 100.0%;">Xochimilco</div>`)[0];
+            popup_18803db328194d498b321676080a2171.setContent(html_d4857c3fe843419394fb04f1da63fd6e);
+        
+
+        circle_bf44d05b117645e795266d0c68397839.bindPopup(popup_18803db328194d498b321676080a2171)
+        ;
+
+        
+    
+</script>
